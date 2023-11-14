@@ -1,0 +1,32 @@
+.heading{
+    list-style: none;
+    color: blue;
+    margin-left: 200px;
+}
+.photo{ 
+    margin-left: 20px
+}
+.name{
+    border-bottom: 4px solid lightgray;
+    font-style: oblique;
+}
+.hobbies{
+    margin-left: 400px;
+    margin-top: -100px;
+    border-left: 4px solid gray;
+}
+.skills{
+    border-left: 4px solid gray;
+}
+td{
+    width: 200px;
+}
+.references{
+    list-style: none;
+    margin-left: -30px;
+}
+h4{
+    color:blue;
+    font-family:cursive
+}
+

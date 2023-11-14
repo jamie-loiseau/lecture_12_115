@@ -1,0 +1,131 @@
+.header{
+    background-color: rgb(54, 52, 52); 
+    height: 200px;
+    padding: 5px;
+}
+.headlist{
+    list-style: none;
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: -15px;
+    margin-left: 80;
+}
+.headlist2{
+    list-style: none;
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+    margin-top: -35px;
+    float: right;
+    padding-right: 10px;
+}
+.searchbox{
+    margin-left: 8%;
+    width: 80%;
+    padding: 20px;
+    padding-bottom: 20;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: aliceblue;
+}
+ol{ 
+    display: flex;
+    margin-top: -45px;
+    font-size: 15px;
+    margin-left: 5%;
+}
+.searchicons{
+    color: gray;
+    width: 150px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    padding-right: 5;
+    padding-left: 1px;
+}
+.dates{
+    width: 100px;
+    justify-content: space-between;
+    list-style: none;
+    display: flex;
+    padding-right: 20px;
+    padding-left: 15px;
+    border-right: 1px solid gray;
+    border-left: 1px solid gray;
+}
+.search{
+    color: gray;
+    width: 250;
+    padding-left: 15;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    display: flex;
+}
+.bluesearch{
+    color: white;
+    background-color: blue;
+    padding: 7px;
+    padding-right: 15;
+    padding-left: 15;
+    margin-left: auto;
+    margin-bottom: auto;
+    margin-right: 10%;
+    margin-top:-5px;
+}
+.border{
+    background-color: rgb(237, 234, 234);
+    height: 75px;
+}
+.restname{
+    text-align: center;
+    color: red;
+    line-height: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.restname p{
+    font-size:xx-small;
+}
+.restaurant{
+    display: center;
+}
+.column{
+    float: left;
+    width: 31%;
+    margin: 20px 1.15%;
+    background-color: rgb(67, 162, 89);
+    text-align: center;
+    color: white;
+    font-size: 15;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.price{
+    color: white;
+    text-align: center;
+    float:right;
+    background-color: red;
+    width: 285px;
+    line-height: 5px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.price2{
+    color: white;
+    text-align: center;
+    float:right;
+    background-color: red;
+    height: 110px;
+    width: 285px;
+    margin-top: -15%;
+    line-height:5px
+}
+.footer{
+    background-color: white;
+    height: 50px;
+}

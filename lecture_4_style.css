@@ -1,0 +1,333 @@
+.flexbox-item-1{
+    width: 100%;
+    height: 40px;
+    background-color: blue;
+    border: 3px solid white;
+}
+.flexbox-item-2{
+    width: 50%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    border: 3px solid white;
+}
+.flexbox-item-3{
+    width: 35%;
+    height: 200px;
+    background-color: #008000;
+    margin-left: 25%;
+    border: 3px solid white;
+}
+.flexbox-item-4{
+    width: 15%;
+    height: 200px;
+    background-color: purple;
+    margin-top: -205px;
+    margin-left: auto;
+    margin-right: 25%;
+    border: 3px solid white;
+}
+.flexbox-item-5{
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    border: 3px solid white;
+}
+.tabletheader{
+    width: 50%;
+    height: 40px;
+    background-color: blue;
+    margin: auto;
+    border: 3px solid white;
+}
+.tablethero{
+    width: 50%;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    border: 3px solid white;
+}
+.tabletcontent{
+    width: 35%;
+    height: 300px;
+    background-color: #008000;
+    margin-left: 25%;
+    border: 3px solid white;
+}
+.tabletsidebar{
+    width: 15%;
+    height: 300px;
+    background-color: purple;
+    margin-top: -305px;
+    margin-left: auto;
+    margin-right: 25%;
+    border: 3px solid white;
+}
+.tabletfooter{
+    width: 50%;
+    height: 40px;
+    background-color: grey;
+    margin: auto;
+    border: 3px solid white;
+}
+.mobileheader{
+    width:50%;
+    height: 30px;
+    background-color: blue;
+    margin: auto;
+    border: 3px solid white;
+}
+.mobilehero{
+    width: 50%;
+    height: 100;
+    background-color: red;
+    margin: auto;
+    border: 3px solid white;
+}
+.mobilecontent{
+    width: 50%;
+    height: 150;
+    background-color: green;
+    margin: auto;
+    border: 3px solid white;
+}
+.mobilesidebar{
+    width: 50%;
+    height: 100;
+    background-color: purple;
+    margin: auto;
+    border: 3px solid white;
+}
+.mobilefooter{
+    width: 50%;
+    height: 30;
+    background-color: grey;
+    margin: auto;
+    border: 3px solid white;
+}
+@media only screen and (min-width:800px){
+    ._1{
+        width: 100%;
+        height: 40px;
+        background-color: blue;
+        border: 3px solid white;
+    }
+    ._2{
+        width: 50%;
+        height: 200px;
+        background-color: red;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._3{
+        width: 35%;
+        height: 200px;
+        background-color: #008000;
+        margin-left: 25%;
+        border: 3px solid white;
+    }
+    ._4{
+        width: 15%;
+        height: 200px;
+        background-color: purple;
+        margin-top: -205px;
+        margin-left: auto;
+        margin-right: 25%;
+        border: 3px solid white;
+    }
+    ._5{
+        width: 100%;
+        height: 40px;
+        background-color: grey;
+        border: 3px solid white;
+    }
+}
+@media only screen and (max-width:800px){
+    
+    ._1{
+        width: 100%;
+        height: 40px;
+        background-color: blue;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._2{
+        width: 100%;
+        height: 100px;
+        background-color: red;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._3{
+        width: 75%;
+        height: 300px;
+        background-color: #008000;
+        border: 3px solid white;
+    }
+    ._4{
+        width: 25%;
+        height: 300px;
+        background-color: purple;
+        margin-top: -305px;
+        margin-left: auto;
+        border: 3px solid white;
+    }
+    ._5{
+        width: 100%;
+        height: 40px;
+        background-color: grey;
+        margin: auto;
+        border: 3px solid white;
+    }
+}
+@media only screen and (max-width:400px) {
+    ._1{
+        width:100%;
+        height: 30px;
+        background-color: blue;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._2{
+        width: 100%;
+        height: 100;
+        background-color: red;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._3{
+        width: 100%;
+        height: 150;
+        background-color: green;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._4{
+        width: 100%;
+        height: 100;
+        background-color: purple;
+        margin: auto;
+        border: 3px solid white;
+    }
+    ._5{
+        width: 100%;
+        height: 30;
+        background-color: grey;
+        margin: auto;
+        border: 3px solid white;
+    }
+}
+.header{
+    background-color: rgb(45, 78, 85);
+    height: 425px;
+}
+.stylesconference{
+    color: white;
+    font-size: 40px;
+    width: 275px;
+    margin-left: 75px;
+    padding-top: 40px;
+    border-top: 4px solid rgb(107, 154, 141);
+}
+.stylesconference:hover{
+    color: rgb(107, 154, 141);
+    cursor: pointer;
+}
+.date{
+    color: rgb(107, 154, 141);
+    margin-top: -100;
+    margin-left: auto;
+    margin-right: 5%;
+    width: 200;
+}
+.list{
+    list-style: none;
+    display: flex;
+    color: white;
+    width: 350px;
+    position: relative;
+    justify-content:space-between;
+    margin-right: 5%;
+    margin-left: auto;
+}
+.dedicated{
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(107, 154, 141);
+    font-family:monospace;
+
+}
+.year{
+    color: white;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 20px;
+    font-family:monospace;
+    padding-bottom: 15px;
+}
+.register-button{
+    text-align: center;
+    color: white;  
+    border: 1px solid rgb(107, 154, 141);
+    width: 100px;
+    margin-left: 45%;
+    margin-right: 45%;
+    padding: 10px;
+    border-radius: 3px;
+}
+.register-button:hover{
+    color: rgb(107, 154, 141);
+    border: 1px solid white;
+    background-color: white;
+    cursor: pointer;
+}
+.box1{
+    width: 200px;
+}
+.box2{
+    width: 200px;
+}
+.box3{
+    width: 200px;
+}
+.boxes{
+    margin-left: 10%;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.text{
+    color: grey;
+    font-size: 15px;
+}
+.underpic{
+    color: rgb(45, 78, 85);
+    font-size:20px
+}
+.words{
+    color: grey;
+}
+.footer{
+    background-color: rgb(45, 78, 85);
+    height: 100px;
+}
+.list2{
+    display: flex;
+    list-style: none;
+    width: 350px;
+    justify-content: space-between;
+    color: white;
+    margin-left: auto;
+    margin-right: 25px;
+    margin-top: -30px;
+}
+.copyright{
+    color: rgb(107, 154, 141);
+    margin-left: 5%;
+    padding-top: 35px;
+}

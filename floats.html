@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>floats</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                background-color: #EAEDF0;
+            }
+            .menu{
+                height: 50px;
+                background-color: #b2d6ff;
+            }
+            .sidebar{
+                float: left;
+                height: 200px;
+                width: 200px;
+                background-color: #f09a9d;
+            }
+            .content{
+                float:left;
+                width: 650px;
+                height: 400px;
+                background-color: #f5cf8d;
+            }
+            .footer{
+                overflow: hidden;
+                background-color: #d6e9fe;
+            }
+            .page{
+                width: 900px;
+                margin: 0 auto;
+                overflow: hidden;
+                background-color: #EAEDF0;
+                border-top: 2px solid red;
+            }
+            .back{
+                background-color: #EAEDF0;
+            }
+            .column{
+                float: left;
+                width: 31%;
+                margin: 20px 1.15%;
+                height: 160px;
+                background-color: b2d6ff;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="menu">menu</div>
+        <div class="back">
+             <div class="page">
+                 <div class="sidebar">sidebar</div>
+                 <div class="content">content</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+            <div class="column"></div>
+        </div>
+    </body>
+</html>

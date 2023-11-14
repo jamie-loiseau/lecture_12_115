@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>CSS</title>
+        <style>
+            h1{
+                color:darkblue; 
+               }
+             p{
+                color:brown;
+             }
+            .par1{
+                color: pink;
+            }
+            .par2{
+                color: gray;
+            }
+            p.center{
+                color:aqua;
+            }
+            h1,p{
+                text-align: center;
+            }
+            .bgcolor{
+                background-color: rgb(240, 167, 218);
+            }
+            body{
+                background-image: url("images/css_background.jpg");
+            }
+            .box{
+                border-top: 10px solid
+            }
+            .box2{
+                border-top: 5px solid;
+                border-bottom: 5px solid;
+                border-left: 5px solid;
+                border-right: 5px solid;
+                border-radius: 10px;
+                padding: 20;
+                margin: 25;
+            }
+            .box3{
+                text-align: center;
+                border-top: 5px solid purple;
+                border-bottom: 5px solid pink;
+                border-left: 5px solid red;
+                border-right: 5px solid orange;
+                padding: 50;
+                width: 320px;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="border: 10px inset pink;">
+            <h1 style="color: blue;">Class2 CSS</h1>
+            <p class="par1"> for example, p.center selects all <strong>paragraphs</strong> with class center.</p>
+        </div>
+        <div class="bgcolor">
+            <h1 class="box">Class2 CSS copy</h1>
+            <p class="par2">Paragraph 2</p>
+        </div>
+        <div>
+            <h1 class="box2">Not be affected</h1>
+            <p class="center"> be affected</p>
+        </div>
+        <div>
+            <h4 class="box3">Box Model</h4>
+        </div>
+    </body>
+</html>

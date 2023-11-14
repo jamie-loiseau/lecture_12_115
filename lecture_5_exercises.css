@@ -1,0 +1,236 @@
+
+.heading{
+    height: 75px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    margin-top: -10px;
+    padding-top: 10px;
+}
+.pfp{
+    padding: 0px 20px;
+    margin-top: 10px;
+
+}
+.name{
+    margin-left: 10px;
+    font-family:unset;
+}
+@media only screen and (min-width:600px){
+    .options{
+        cursor: pointer;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        width: 275px;
+        margin-top: 25px;
+        margin-right: 25px;
+        margin-left: auto;
+    }
+    .optionsmenu{
+        visibility: hidden;
+    }
+}
+@media only screen and (max-width:600px){
+    .options{
+        visibility: hidden;
+    }
+    .optionsmenu{
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: 40px;
+        border: 1px solid white;
+        background-color: white;
+    }
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.options a:hover{
+    color: blue;
+}
+.heading2{
+    text-align: center;
+    margin-top: -450px;
+    height: 250px;
+}
+.heading2 h4{
+    padding: 0 10%;
+}
+.intro{
+    color: white;
+    font-family:sans-serif;
+    padding-bottom: 60px;
+}
+.intro h1{
+    font-size: 45px;
+}
+.heading2 a{
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 55px;
+    font-size: larger;
+    box-shadow: inset;
+    cursor: pointer;
+}
+.links{
+    margin-top: -200px;
+    cursor: pointer;
+}
+td img{
+    border: 2px solid white;
+}
+.about{
+    margin-top: 250px;
+    text-align: center;
+}
+.about hr{
+    border-bottom: 4px solid cadetblue;
+
+    width: 50px;
+}
+.gettoknow{
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+    text-align: left;
+}
+.gettoknow p{
+    padding-bottom: 30px;
+}
+
+.contact a{
+    background-color:cadetblue;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 30px;
+    
+}
+.contact:hover{
+    cursor: pointer;
+    padding-top: -20px;
+    position: relative;
+}
+.skills{
+    float: right;
+    width: 40%;
+    margin-right: 5%;
+}
+.skills td{
+    background-color: rgb(227, 227, 227);
+    border: 5px solid white;
+    border-radius: 10px;
+    padding: 6px 5px;
+    text-align: center;
+}
+.projects{
+    margin-top: 500px;
+    text-align: center; 
+    
+    width: 90%;
+    position: absolute;
+}
+.projects hr{
+    border-bottom: 4px solid cadetblue;
+    width: 50px;
+}
+.projects2{
+    width: 300px;
+    margin-right: 5%;
+    margin-left: auto;
+    margin-top: -220px;
+    padding-bottom: 80px;
+}
+.projects2 p{
+    padding-bottom: 20px;
+}
+.projects2 a{
+    background-color:cadetblue;
+    color: white;
+    border-radius: 4px;
+    padding: 10px 30px;
+}
+.laptop{
+    width: 300px;
+    margin-left: 5%;
+}
+.contacthead{
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+    margin-top: -950px;
+}
+.contacthead hr{
+    border-bottom: 4px solid white;
+    border-radius: 3px;
+    width: 50px;
+}
+.contact{
+    height: 500px;
+    width: 80%;
+    margin-left: 10%;
+    border: 10px solid white;
+    border-radius: 6px;
+    background-color: white;
+    position: relative;
+}
+.entername{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: rgb(245, 245, 246);
+}
+.enteremail{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    height: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    background-color: rgb(245, 245, 246);
+}
+.entermessage{
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding-bottom: 200px;
+    padding-top: 10px;
+    background-color: rgb(245, 245, 246);
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 220px;
+    padding-top: 80px;
+    padding-bottom:20px;
+}
+.footer ul{
+    list-style: none;
+    display: flex;
+}
+.leftfoot{
+    width: 300px;
+    margin-left: 5%;
+}
+.rightfoot{
+    width:200px;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: -120px;
+}
+.rightfoot h2{
+    margin-left: 50px;
+}
+.foot{
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 150px;
+}
